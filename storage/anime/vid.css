@@ -1,0 +1,22 @@
+.video-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+a:link, a:visited{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
