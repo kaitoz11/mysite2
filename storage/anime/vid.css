@@ -6,9 +6,9 @@
     padding-top: 25px;
     height: 0;
 }
-
+a { text-decoration: none; }
 a:link, a:visited{
-    background-color: white;
+    background-color: green;
     color: black;
     border: 2px solid green;
     padding: 10px 20px;
@@ -17,6 +17,19 @@ a:link, a:visited{
 }
 
 a:hover, a:active {
-    background-color: green;
+    background-color: black;
     color: white;
+}
+
+
+body
+{
+	background-color: #1f1e1e;
+	color: #FFFFFF; 
+	font-size: 14px;
+	line-height: 1.357;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 20px;
 }
