@@ -27,4 +27,3 @@ document.getElementById('linkd').innerHTML = '<a href="">LINK</a>'
 //server1
 document.getElementById('svname1').innerHTML = '*Tên server*:';
 document.getElementById('sev1').innerHTML = ep1 + ep2 + ep3 + ep4 + ep5 + ep6 + ep7 + ep8 + ep9 + ep10 + ep11 + ep12;
-
