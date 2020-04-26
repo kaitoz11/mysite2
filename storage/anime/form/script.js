@@ -1,7 +1,12 @@
 /* 
  * insert information
  */
+let inf = {
+    AnimeName: '*Tên Anime*',
+    fansubname: "",
+    linkDownload: "",
 
+}
 //server1 ep switcher
 let ep = [
     '<a class="button" href="S1E1.html">ep1</a> ',
@@ -34,9 +39,9 @@ let ep = [
  * Hooker
  */
 //Anime's info
-document.getElementById('ttle').innerHTML = '*Tên Anime*';
-document.getElementById('fansub').innerHTML = '';
-document.getElementById('linkd').innerHTML = '<a href="">LINK</a>'
+document.getElementById('ttle').innerHTML = inf.AnimeName;
+document.getElementById('fansub').innerHTML = inf.fansubname;
+document.getElementById('linkd').innerHTML = '<a href="'+inf.linkDownload+'">LINK</a>'
 //server1
 document.getElementById('svname1').innerHTML = '*Tên server*:';
 document.getElementById('sev1').innerHTML = epcepmenu(12);
@@ -48,3 +53,8 @@ function epcepmenu(N) {
     }
     return Epssss;
 }
+
+/* 
+ *  add
+ */
+document.getElementById('navi').innerHTML = '<nav style="text-align: center; font-size: 16px; font-weight: bold;"><a class="button" style="border-radius: 14px" href="../../Anime.html">BACK</a></nav>';
