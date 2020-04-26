@@ -12,6 +12,7 @@ let inf = {
  * Hooker
  */
 //Anime's info
+document.title = inf.AnimeName;
 document.getElementById('ttle').innerHTML = inf.AnimeName;
 document.getElementById('fansub').innerHTML = inf.fansubname;
 document.getElementById('linkd').innerHTML = '<a href="'+inf.linkDownload+'">LINK</a>'
