@@ -18,16 +18,16 @@
     height: 0;
 }
 a { text-decoration: none; }
-.button:link,.button:visited{
+.button{
     background-color: #00ff00;
     color: black;
     border: 3px solid #1f1e1e;
     padding: 8px 16px;
     text-align: center;
     display: inline-block;
+    cursor: pointer;
 }
-
-.button:hover,.button:active {
+.button:hover,.button:active{
     background-color: black;
     color: #00ff00;
     border: 3px solid #00ff00;
@@ -47,4 +47,7 @@ body
 	text-align: center;
 	padding: 10px;
 	padding-bottom: 20px;
+}
+#vid{
+    text-align: left;
 }
